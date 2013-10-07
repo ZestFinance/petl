@@ -2,6 +2,11 @@
 
 Pretty good ETL framework
 
+## Features
+1. Batching support
+2. Automatic validity check
+3. Logging of running times
+
 ## Installation
 
 Add this line to your application's Gemfile:
