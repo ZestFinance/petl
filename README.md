@@ -1,6 +1,6 @@
-# Petl
+# petl
 
-TODO: Write a gem description
+Pretty good ETL framework
 
 ## Installation
 
@@ -18,7 +18,36 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+module ETL::Example
+  extend ETL
+  extend self
+
+  def extract
+    # Grab all data from source(s) here.
+    # Perferrably return an array of hashes.
+  end
+
+  def transform rows
+    # Manipulate the data extracted by the previous extract method.
+  end
+
+  def load rows
+    # Load the transformed data here into the destination(s).
+  end
+
+  def source_count
+    # Count the number of records from your source(s).
+  end
+
+  def destination_count
+    # Same as #source_count but with your destination(s).
+  end
+end
+
+# Run it!
+ETL::Example.perform
+```
 
 ## Contributing
 
