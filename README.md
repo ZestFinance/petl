@@ -1,4 +1,4 @@
 petl
 ====
 
-Pretty good ETL
+Pretty good ETL gem
