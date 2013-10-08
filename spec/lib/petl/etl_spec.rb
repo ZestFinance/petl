@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe "ETL" do
+describe "Petl::ETL" do
 
   module TestETL
-    extend ETL
+    extend Petl::ETL
     extend self
 
     def source_count
@@ -66,7 +66,7 @@ describe "ETL" do
 
       context "with batching" do
         module BatchETL
-          extend ETL
+          extend Petl::ETL
           extend self
 
           def batch
