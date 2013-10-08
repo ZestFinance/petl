@@ -24,8 +24,10 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+require 'petl'
+
 module ETL::Example
-  extend ETL
+  extend Petl::ETL
   extend self
 
   def extract
