@@ -1,4 +1,4 @@
-# petl
+# petl [![Build Status](https://travis-ci.org/ZestFinance/petl.png?branch=master)](https://travis-ci.org/ZestFinance/petl) [![Code Climate](https://codeclimate.com/github/ZestFinance/petl.png)](https://codeclimate.com/github/ZestFinance/petl)
 
 Pretty good ETL framework
 
