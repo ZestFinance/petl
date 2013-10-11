@@ -27,7 +27,7 @@ Or install it yourself as:
 require 'petl'
 
 module ETL::Example
-  extend Petl::ETL
+  extend Petl
   extend self
 
   def extract
