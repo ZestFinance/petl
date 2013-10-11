@@ -2,6 +2,8 @@
 
 Pretty good ETL framework
 
+![Petl Logo](https://raw.github.com/fsproru/petl/master/logo.png)
+
 ## Features
 1. Batching support
 2. Automatic validity check
