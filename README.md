@@ -2,7 +2,7 @@
 
 Pretty good ETL framework
 
-![Petl Logo](http://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Five_petal_flower_icon.svg/200px-Five_petal_flower_icon.svg.png)
+![Petl Logo](https://raw.github.com/fsproru/petl/master/logo.png)
 
 ## Features
 1. Batching support
