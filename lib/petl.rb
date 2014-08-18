@@ -13,11 +13,11 @@ module Petl
     raise NotImplementedError.new "#{self}#extract not implemented."
   end
 
-  def transform
+  def transform(_rows)
     raise NotImplementedError.new "#{self}#transform not implemented."
   end
 
-  def load
+  def load(_rows)
     raise NotImplementedError.new "#{self}#load not implemented."
   end
 
